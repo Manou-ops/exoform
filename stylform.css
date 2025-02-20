@@ -1,0 +1,223 @@
+
+
+.contact{
+  background-color:  #38baf6  ;
+  padding: 100px 0;
+  margin-bottom: 10px;
+  border-radius:  5%;
+  width:1200px;
+  align-items: center;
+
+  margin-top:115px;
+  
+  position: absolute;
+    top:125%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.contact .conteneur {
+  max-width:900px;
+  padding-bottom: 22px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  /*padding: 10px  10px; */
+  border-radius: 35px;
+  box-sizing: border-box;
+  box-shadow: rgba(0px,10px,50px,-10px);
+  margin-bottom: 15px;
+  padding-left: -5px;
+  
+}
+
+.contact .conteneur .text-contact{
+  text-align: center;
+  color-scheme: #999;
+  margin-top: 50px;
+
+}
+
+.contact .conteneur .text-contact h6{
+ font-size: 25px;
+ color: black;
+ margin-top: 5px;
+}
+
+.contact .conteneur .text-contact h3{
+  font-size: 2.2em;
+}
+
+.contact .conteneur .formu {
+
+  display: flex;
+  
+/*flex-wrap: wrap;*/
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 600px;
+  margin-left: 150px;
+  margin-top: 20px;
+  align-items: center;
+  /*   border:  black solid;*/
+  border-radius: 5px;
+  position: relative;
+  
+
+  
+}
+
+.contact .conteneur .formu input {
+  width: 68%;
+  margin: 1%;
+  margin-bottom: 10px 0;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #38baf6;
+  transition: 0.2s;
+
+  margin-top: 10px;
+
+  margin-bottom:   5px;
+
+}
+
+.contact .conteneur .formu input:hover{
+  border-bottom: #000 2px solid;
+}
+
+
+
+.contact .conteneur .formu .textarea {
+  width: 100%;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid  #38baf6;
+  transition: 0.2s;
+  resize: none;
+  height: 75px;
+  margin-top: 45px;
+ 
+}
+
+.contact .conteneur .formu .textarea:hover{
+  border-bottom: #000 2px solid;
+}
+
+
+ .btn-send{
+  
+ width: 192px;
+ height: 60px;
+ border-radius: 8px;
+ border: none;
+ background-color: #38baf6 ;
+ color: white;
+ font-weight: bold;
+ font-size: 27px;
+ cursor: pointer;
+ outline: none;
+ margin: 0 auto;
+  
+ }
+
+ header {
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  padding:0px; /* Ajoute de l'espace autour */
+  height: 110px ;
+  border-radius: 5px;
+
+}
+
+.header-content {
+  display: flex;
+  align-items: center; /* Aligne le logo et le texte au centre */
+  gap:120px; /* Espace entre le logo et le texte */
+}
+
+.logo {
+  height: 50px; /* Ajuste la hauteur du logo */
+  width: auto; /* Empêche la déformation */
+}
+
+.formtete {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.formtete span {
+  color:    #38baf6   ;
+  font-size: 50px;
+}
+
+
+  .header-content  .formtete .cyel {
+color: red;
+
+}
+
+.header-content  .formtete .cyel1{
+  color: rgb(99, 16, 102);
+  
+  }
+
+  .header-content  .formtete .cyel2{
+    color: rgb(37, 179, 24);
+    
+    }
+
+    .header-content  .formtete .cyel3{
+      color: rgb(191, 194, 17);
+      
+      }
+
+
+header {
+  position: fixed; /* Fixe l'élément en haut de la page */
+  top: 0; /* Place le header tout en haut */
+  left: 0;
+  width: 100%; /* S'étend sur toute la largeur */
+   background-color: white;   /* Assure que le fond reste visible */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ajoute une légère ombre */
+  z-index: 1000; /* Assure que le header reste au-dessus du contenu */
+ /*adding: 20px 0;  Ajoute de l’espace autour du texte */
+}
+
+body {
+   padding-top:150px; /* Évite que le contenu soit caché sous le header */
+   background-image: url(  image2-removebg-preview.png  ) ;
+   
+}
+
+
+
+.succes{
+ visibility: hidden;
+max-width:900px;
+  padding-bottom: 22px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  /*padding: 10px  10px; */
+  border-radius: 35px;
+  box-sizing: border-box;
+  box-shadow: rgba(0px,10px,50px,-10px);
+  margin-bottom: 15px;
+  padding-left: -5px;
+  
+
+}
