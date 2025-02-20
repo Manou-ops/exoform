@@ -1,7 +1,7 @@
 alert("RASSUSSEZ VOUS DE VOULOIR PARTICIPER ET D'ETRE DISPONIBLE")
 
-document.addEventListener("DOMContentLoaded", function () {
-  const form = document.querySelector(".contact .formu");
+
+  const form = document.querySelector(" .formu");
   const successSection = document.querySelector(".succes");
 
   form.addEventListener("submit", function (event) {
@@ -58,6 +58,6 @@ document.addEventListener("DOMContentLoaded", function () {
       alert("Inscription réussie !");
       form.reset(); // Réinitialiser le formulaire après soumission
   });
-});
-
+  
+ 
 
